@@ -12,7 +12,7 @@
 
 body {
   background: black;
-  background-image: url('pokebattlebackground.jpg');
+  background-image: url('pokebattlebackground2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -123,10 +123,10 @@ body {
   color: white;
   border: 1px solid;
   position: absolute;
-  right: 645px;
+  right: 650px;
   width: 150px;
   text-align: center;
-  top: 555px;
+  top: 255px;
   background: black;
 }
 
@@ -136,58 +136,46 @@ body {
 #status_text {
   position: absolute;
   text-align: center;
-  top: 325px;
-  left: 40px;
-  background: white;
-  color: black;
-  left: 550px;
+  top: 450px;
+  background: black;
+  color: white;
+  left: 575px;
   width: 20%;
   padding: 20px;
   margin: 0 auto;
 }
 
-#player .name {
-  position: absolute;
-  background: white;
-  color: black;
-  right: 135px;
-  top: 275px;
-  padding: 5px;
-}
+
 
 #player .credibility {
   position: absolute;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   right: 135px;
-  top: 325px;
+  top: 300px;
   padding: 5px;
 }
 
-#opponent .name {
-  position: absolute;
-  background: white;
-  color: black;
-  left: 175px;
-  top: 275px;
-  padding: 5px;
-}
+
 
 #opponent .credibility {
   position: absolute;
-  background: white;
-  color: black;
-  left: 175px;
-  top: 325px;
+  background: black;
+  color: white;
+  left: 350px;
+  top: 300px;
   padding: 5px;
 }
 
 .time-left {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   padding: 10px;
   position: absolute;
-  width: 150px;
+  width: 40px;
+  left: 687px;
+  top: 0px;
+  text-align: center;
 }
 
 /* animations  */
