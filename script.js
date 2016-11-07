@@ -68,6 +68,11 @@ console.log('script.js is running!');
     $('#recover_btn').hide();
     $('#opponent_attack_btn').hide();
     $('#opponent_recover_btn').hide();
+    $('#newgame_btn').css('visibility', 'visible');
+    $('#newgame_btn').on('click', function(){
+      location.reload()
+    })
+
   }
   //player events
   function playerAttack() { //player has 2 out of 12 chances of missing
@@ -232,3 +237,4 @@ console.log('script.js is running!');
     }, 1000);
   })
 })();
+

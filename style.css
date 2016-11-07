@@ -130,7 +130,18 @@ body {
   background: black;
 }
 
-
+#newgame_btn {
+   cursor: pointer;
+  color: white;
+  border: 1px solid;
+  position: absolute;
+  right: 650px;
+  width: 150px;
+  text-align: center;
+  top: 255px;
+  background: black;
+  visibility: hidden;
+}
 
 
 #status_text {
