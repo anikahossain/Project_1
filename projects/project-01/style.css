@@ -1,0 +1,242 @@
+#attack_btn {
+  cursor:  pointer;
+  color: white;
+  border: 1px solid;
+  position:  absolute;
+  left: 80.95%;
+  width:  150px;
+  text-align: center;
+  top: 700px;
+  background: black;
+}
+
+body {
+  background: black;
+  background-image: url('pokebattlebackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#recover_btn {
+  cursor: pointer;
+  color: white;
+  border: 1px solid;
+  position: absolute;
+  left: 80.95%;
+  width: 150px;
+  text-align: center;
+  top: 725px;
+  background: black;
+}
+
+#opponent_attack_btn{
+  cursor:  pointer;
+  color: white;
+  border: 1px solid;
+  position: absolute;
+  right: 77.9%;
+  width: 150px;
+  text-align: center;
+  top: 700px;
+  background: black;
+}
+
+
+#opponent_recover_btn {
+  cursor: pointer;
+  color: white;
+  border: 1px solid;
+  position: absolute;
+  right: 77.9%;
+  width: 150px;
+  text-align: center;
+  top: 725px;
+  background: black;
+}
+
+#player_img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 50px;
+  margin-right: 0px;
+  top: 400px;
+  left: 75%;
+}
+
+#opponent_img {
+  position: absolute;
+  width: 250px;
+  right: 50px;
+  margin-left: 0px;
+  top: 400px;
+  right: 75%;
+}
+
+.wiggle {
+  animation-name: wiggle;
+  animation-duration: .25s;
+  animation-iteration-count: 4;
+}
+
+.jump {
+  animation-name: jump;
+  animation-duration: .25s;
+  animation-iteration-count: 4;
+}
+
+.jumpforever {
+  animation-name: jump;
+  animation-duration: .25s;
+  animation-iteration-count: infinite;
+}
+.rolloverright{
+  animation-name: rolloverright;
+  animation-duration: .5s;
+}
+
+.rolloverleft {
+  animation-name: rolloverleft;
+  animation-duration: .5s;
+}
+
+#hilpo_img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 500px;
+  left: 70%;
+}
+
+#trumppo_img {
+  position: absolute;
+  width: 365px;
+  height: 300px;
+  top: 500px;
+  right: 70%;
+}
+
+
+#startgame_btn{
+  cursor: pointer;
+  color: white;
+  border: 1px solid;
+  position: absolute;
+  right: 645px;
+  width: 150px;
+  text-align: center;
+  top: 555px;
+  background: black;
+}
+
+
+
+
+#status_text {
+  position: absolute;
+  text-align: center;
+  top: 325px;
+  left: 40px;
+  background: white;
+  color: black;
+  left: 550px;
+  width: 20%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#player .name {
+  position: absolute;
+  background: white;
+  color: black;
+  right: 135px;
+  top: 275px;
+  padding: 5px;
+}
+
+#player .credibility {
+  position: absolute;
+  background: white;
+  color: black;
+  right: 135px;
+  top: 325px;
+  padding: 5px;
+}
+
+#opponent .name {
+  position: absolute;
+  background: white;
+  color: black;
+  left: 175px;
+  top: 275px;
+  padding: 5px;
+}
+
+#opponent .credibility {
+  position: absolute;
+  background: white;
+  color: black;
+  left: 175px;
+  top: 325px;
+  padding: 5px;
+}
+
+.time-left {
+  background: white;
+  color: black;
+  padding: 10px;
+  position: absolute;
+  width: 150px;
+}
+
+/* animations  */
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@keyframes jump {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes rolloverright {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes rolloverleft {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
+
+
