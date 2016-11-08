@@ -147,13 +147,14 @@ body {
 #status_text {
   position: absolute;
   text-align: center;
-  top: 450px;
+  top: 400px;
   background: black;
   color: white;
-  left: 575px;
+  left: 565px;
   width: 20%;
   padding: 20px;
-  margin: 0 auto;
+  font-size: 25px;
+  font-style: Helvetica;
 }
 
 
